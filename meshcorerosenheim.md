@@ -30,7 +30,7 @@ Die folgende Tabelle zeigt die Werte, die das Preset im Hintergrund setzt – zu
 | Spreading Factor | SF8                 | Durch Preset gesetzt                 |
 | Bandwidth        | 62.5 kHz            | Durch Preset gesetzt                 |
 | Coding Rate      | CR8                 | Durch Preset gesetzt                 |
-| TX Power         | max. 25 mW (14 dBm) | Gesetzlich erlaubtes Maximum in DE   |
+| TX Power         | max. 500 mW (27 dBm) | Gesetzlich erlaubtes Maximum in DE   |
 
 ---
 
@@ -74,7 +74,7 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 |------------------|-----------------------|-------------------------------------------------------------------------|
 | Gerätemodus      | `REPEATER`            | Im Firmware-Setup als „Repeater" oder „Router" wählen                  |
 | Funkparameter    | `EU/UK (Narrow)`      | Preset im Konfigurator wählen – setzt Frequenz, SF, BW und CR automatisch |
-| TX Power         | 14 dBm (25 mW)        | Gesetzliches Maximum in DE – nicht überschreiten                        |
+| TX Power         | 27 dBm (500 mW)        | Gesetzliches Maximum in DE – nicht überschreiten                        |
 | path.hash.bytes  | 2                     | 2 Byte für Path-Hashes – spart Paket-Overhead                           |
 | Knotenname       | frei wählbar          | Schema: `DE.BY.RO <Knotenname>`, z. B. `DE.BY.RO Hochries`             |
 | GPS / Position   | wenn möglich aktiv    | Ermöglicht Kartendarstellung für andere Nutzer                          |
@@ -113,7 +113,7 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 |------------------|-------------------------|-------------------------------------------------------|
 | Gerätemodus      | `COMPANION` / `CLIENT`  | Je nach Firmware-Version unterschiedlich bezeichnet   |
 | Funkparameter    | `EU/UK (Narrow)`        | Preset in der App wählen – setzt Frequenz, SF, BW und CR automatisch |
-| TX Power         | 14 dBm (25 mW)          | Gesetzliches Maximum – Firmware begrenzt automatisch  |
+| TX Power         | 27 dBm (500 mW)          | Gesetzliches Maximum – Firmware begrenzt automatisch  |
 | path.hash.bytes  | 2                       | Muss mit den Repeatern übereinstimmen (ebenfalls 2 Byte) |
 | Knotenname       | Rufzeichen / Spitzname  | Wird anderen Nutzern im Netz angezeigt                |
 | Channels         | `#rosenheim`            | Weitere Channels nach Bedarf hinzufügen               |
@@ -176,6 +176,6 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 
 ## Hinweise & Rechtliches
 
-Das 869-MHz-ISM-Subband (869.4–869.65 MHz) ist in Deutschland lizenzfrei nutzbar (§ 55 TKG, Allgemeinzuteilung). Die TX-Leistung von maximal 25 mW (14 dBm) ist einzuhalten.
+Das 869-MHz-ISM-Subband (869.4–869.65 MHz) ist in Deutschland lizenzfrei nutzbar (§ 55 TKG, Allgemeinzuteilung). Die TX-Leistung von maximal 500 mW (27 dBm) ist einzuhalten.
 
 *Diese Seite ist eine Community-Ressource und keine offizielle Veröffentlichung des MeshCore-Projekts.*
