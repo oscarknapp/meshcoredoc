@@ -77,7 +77,6 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 | path.hash.bytes  | 2                     | 2 Byte für Path-Hashes – spart Paket-Overhead                           |
 | Knotenname       | frei wählbar          | Schema: `DE.BY.RO <Knotenname>`, z. B. `DE.BY.RO Hochries`             |
 | GPS / Position   | wenn möglich aktiv    | Ermöglicht Kartendarstellung für andere Nutzer                          |
-| Sleep-Modus      | deaktiviert           | Repeater müssen dauerhaft erreichbar sein                               |
 
 ### Flood-Region-Regeln
 
@@ -121,7 +120,6 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 | Knotenname       | Rufzeichen / Spitzname  | Wird anderen Nutzern im Netz angezeigt                |
 | Channels         | `#rosenheim`            | Weitere Channels nach Bedarf hinzufügen               |
 | Verbindung       | Bluetooth (BLE)         | MeshCore-App für Android/iOS über Bluetooth koppeln   |
-| Sleep-Modus      | optional                | Spart Akku, wenn das Gerät nicht aktiv genutzt wird   |
 
 ---
 
