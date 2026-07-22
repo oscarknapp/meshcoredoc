@@ -85,7 +85,7 @@ Channels sind Gesprächsgruppen innerhalb des Meshs. Der Channel-Name muss bei a
 
 | Prio | Regel              | Aktion       | Hinweis                                                                           |
 |------|--------------------|--------------|-----------------------------------------------------------------------------------|
-| 1    | ohne Region-Scope  | flood DENY   | Pakete ohne Regionsangabe werden nicht weitergeleitet. Schützt vor unkontrollierter netzweiter Ausbreitung. |
+| 1    | ohne Region-Scope  | flood ALLOW  | Pakete ohne Regionsangabe werden weitergeleitet, durch flood.max.unscoped eingeschränkt auf 5 Hops |
 | 2    | `de-by`            | flood ALLOW  | Pakete mit bayernweitem Scope werden weitergeleitet.                              |
 | 3    | `de-by-ro`         | flood ALLOW  | Pakete mit Rosenheimer Scope werden weitergeleitet.                               |
 | 4    | `de-by-muc`        | flood ALLOW  | Optional – nur für Repeater im Grenzgebiet Richtung München relevant.             |
